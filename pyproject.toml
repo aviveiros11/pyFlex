@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pyFlex"
+version = "0.0.1"
+description = "A Python API client for PowerFlex"
+authors = ["aviveiros11 <viveiros.austin@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+requests = "^2.24.0"
+pandas = "^1.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.8.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
